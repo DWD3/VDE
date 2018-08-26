@@ -3,11 +3,12 @@
   "description":"for downloading videos",
   "version":"1.0",
   "manifest_version":2,
-  "permissions":["storage","declarativeContent"],
+  "permissions":["storage","declarativeContent","activeTab"],
   "page_action":{
     "default_popup":"index.html",
     "default_icon":"main_icon.png"
   },
+  "options_page":"options.html",
   "icons":{
     "16":"main_icon.png",
     "32":"main_icon.png",

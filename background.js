@@ -1,4 +1,5 @@
 chrome.runtime.onInstalled.addListener(function () {
+    //set the variable 'color' to the desired color,globally
     chrome.storage.sync.set({color:'#3aa757'},function () {
         console.log("Hi Hi")
     });
